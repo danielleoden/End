@@ -76,7 +76,7 @@ function addThing()
     grandma.removeChild(mom);
     var itemRemove = mom.firstChild.textContent;
     var itemIndex = myList.splice(itemIndex, 1);
-
+    window.alert("Congradulatons you have completed an item on your bucket list, now go do some more.")
 
   }
 
